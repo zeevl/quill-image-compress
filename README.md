@@ -7,6 +7,18 @@
 ![Build and Publish](https://github.com/benwinding/quill-image-compress/workflows/Build%20and%20Publish/badge.svg)
 <!-- [END badges] -->
 
+## changes
+This updates handling for word.   To apply:
+
+```
+npm build
+cp dist/* ~/src/scribeware/node_modules/quill-image-compress/dist/
+cd ../scribeware
+patch-project quill-image-compress
+```
+
+
+
 Quill.js Module which compresses images that are uploaded to the editor 
 
 - [Live Demo!](https://benwinding.github.io/quill-image-compress/src/demo.html)
