@@ -11,10 +11,10 @@
 This updates handling for word.   To apply:
 
 ```
-npm build
+npm run build
 cp dist/* ~/src/scribeware/node_modules/quill-image-compress/dist/
-cd ../scribeware
-patch-project quill-image-compress
+cd ~/src/scribeware
+yarn patch-package quill-image-compress
 ```
 
 
